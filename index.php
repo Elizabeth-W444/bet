@@ -1,19 +1,12 @@
 <?php
-class MyClass {
-       public function heading()  {
-        echo "Welcome to BBIT DevOps!";
-       }
+require_once 'classes.php';
+require_once 'forms.php';
 
-       public function myMethod() {
-        echo "<p>This is a new semester.</p>";
-       }
-
-       public function footer() {
-        echo "<footer>Contact us at <a href 'mailto:info@bbit.edu'</a></footer>";
-       }
-}
-// create an instance of MyClass and call myMethod
+// create an instance of MyClass 
 $instance = newMyClass();
+
+//Create an instance of user_forms
+$formInstance = new user_forms();
 
 // call the method myMethod
 $instance->heading();
