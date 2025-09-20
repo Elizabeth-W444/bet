@@ -1,7 +1,7 @@
 <?php
 
 //Site Configuration
- $conf['site_name'] = "BBIT Devops";
+ $conf['site_name'] = "BBIT DevOps";
  $conf['admin_email'] = "info@bbit.edu";
  $conf['site_url'] = "http://localhost/bet";
 

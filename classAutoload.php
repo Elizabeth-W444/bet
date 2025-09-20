@@ -1,4 +1,7 @@
 <?php
+
+require_once 'cpnf.php';
+
 $directory = [
     'Layouts',
     'Forms'
